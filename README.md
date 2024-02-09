@@ -1,4 +1,27 @@
 # Stable Diffusion web UI
+* setup environment
+```
+python3 -m virtualenv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
+
+* running `python3 launch.py` will download some necessary models and modules
+```
+python3 launch.py --skip-torch-cuda-test
+```
+
+* models are usually in `safetensors` format 
+
+* run webui with cpu
+```
+python3 webui.py --precision full --no-half --use-cpu all
+```
+
+# with docker
+
+
+# Original README.md
 A browser interface based on Gradio library for Stable Diffusion.
 
 ![](screenshot.png)
