@@ -12,6 +12,7 @@ python3 launch.py --skip-torch-cuda-test
 ```
 
 * models are usually in `safetensors` format 
+* we can put downloaded models in `models/Stable-diffusion` folders
 
 * run webui with cpu
 ```
