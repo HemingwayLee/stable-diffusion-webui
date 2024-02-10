@@ -21,7 +21,15 @@ python3 webui.py --precision full --no-half --use-cpu all
 
 # with docker
 
-
+# options
+* batch size (it is used for batch inference)
+  * A value that defines the amount of images to be generated in one batch
+  * Images that are being generated in one batch are processed in parallel
+  * The larger your batch size is, the more VRAM you will need to have
+* batch count 
+  * It declares the number of batches you want to generate
+  * if you set your batch size to 4 images and your batch count to 2, you will get 8 images in the end
+  
 # Original README.md
 A browser interface based on Gradio library for Stable Diffusion.
 
