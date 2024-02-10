@@ -29,7 +29,14 @@ python3 webui.py --precision full --no-half --use-cpu all
 * batch count 
   * It declares the number of batches you want to generate
   * if you set your batch size to 4 images and your batch count to 2, you will get 8 images in the end
-  
+* Seed
+  * A seed is a number from which Stable Diffusion generates noise
+  * The algorithm that Stable Diffusion uses to produce an image is not entirely random, even though to our human eyes it looks random
+![image](https://github.com/HemingwayLee/stable-diffusion-webui/assets/8428372/430e9673-ab7f-4d84-93c0-cf186c8e79eb)
+![image](https://github.com/HemingwayLee/stable-diffusion-webui/assets/8428372/baa7d528-3785-4ab9-8aa3-6a5bca3ceaa4)
+
+## How to Use Seeds to Maintain Consistency in Your Images
+
 # Original README.md
 A browser interface based on Gradio library for Stable Diffusion.
 
