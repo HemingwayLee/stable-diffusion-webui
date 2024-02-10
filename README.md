@@ -36,6 +36,7 @@ python3 webui.py --precision full --no-half --use-cpu all
 ![image](https://github.com/HemingwayLee/stable-diffusion-webui/assets/8428372/baa7d528-3785-4ab9-8aa3-6a5bca3ceaa4)
 
 ## How to Use Seeds to Maintain Consistency in Your Images
+* Check this [link](https://onceuponanalgorithm.org/guide-what-is-a-stable-diffusion-seed-and-how-to-use-it/)
 
 # Original README.md
 A browser interface based on Gradio library for Stable Diffusion.
