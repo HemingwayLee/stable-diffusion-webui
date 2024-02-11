@@ -39,9 +39,20 @@ python3 webui.py --precision full --no-half --use-cpu all
   * The model uses a text prompt as a guide in this transformation process, refining the image a little bit in each step until it aligns with the prompt
   * The more sampling steps you use, the longer it will take
   * There is no optimal value, we need to test it to find the balanced value 
+* CFG (Classifier Free Guidance)  is a parameter that controls Stable Diffusion how 'strict' it should follow the `prompt input` in image generation
+  * Lower CFG give the AI more freedom to be creative
+  * higher numbers force it to stick more to the prompt
+  * In `img2img`, higher numbers force it to stick more to the `original image`
+* Denoising strength
+  * In `img2img` with `ghilbi` model, higher numbers force it to stick more to the ghilbi style
+  * In `img2img` with `ghilbi` model, lower numbers force it to stick more to the original image
 
 ## How to Use Seeds to Maintain Consistency in Your Images
 * Check this [link](https://onceuponanalgorithm.org/guide-what-is-a-stable-diffusion-seed-and-how-to-use-it/)
+
+## How to do cartoonize
+* Check this [link](https://stable-diffusion-art.com/cartoonize-photo/)
+
 
 # Original README.md
 A browser interface based on Gradio library for Stable Diffusion.
