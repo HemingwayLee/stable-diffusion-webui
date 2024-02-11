@@ -35,6 +35,11 @@ python3 webui.py --precision full --no-half --use-cpu all
 ![image](https://github.com/HemingwayLee/stable-diffusion-webui/assets/8428372/430e9673-ab7f-4d84-93c0-cf186c8e79eb)
 ![image](https://github.com/HemingwayLee/stable-diffusion-webui/assets/8428372/baa7d528-3785-4ab9-8aa3-6a5bca3ceaa4)
 
+* `Sampling steps` is the number of iterations that the Stable Diffusion model runs to transform the initial noise into a recognizable image
+  * The model uses a text prompt as a guide in this transformation process, refining the image a little bit in each step until it aligns with the prompt
+  * The more sampling steps you use, the longer it will take
+  * There is no optimal value, we need to test it to find the balanced value 
+
 ## How to Use Seeds to Maintain Consistency in Your Images
 * Check this [link](https://onceuponanalgorithm.org/guide-what-is-a-stable-diffusion-seed-and-how-to-use-it/)
 
