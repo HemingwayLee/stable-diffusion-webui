@@ -16,7 +16,7 @@ python3 launch.py --skip-torch-cuda-test
 
 * run webui with cpu
 ```
-python3 webui.py --precision full --no-half --use-cpu all
+python3 webui.py --precision full --no-half --use-cpu all --listen
 ```
 
 # with docker
